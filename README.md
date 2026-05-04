@@ -55,20 +55,34 @@ Unlike ELA, which focuses on compression, **SRM (Steganalysis Rich Model)** focu
     streamlit run app.py
     ```
 
+## 📂 Project Structure
     image-inspector-new/
 ├── ELA_Training/           # Pre-trained Keras model & training scripts
+
 ├── imgs/                   # Sample images for testing
+
 ├── res/                    # Results and output storage
+
 ├── rsc/                    # Resource files and assets
+
 ├── app.py                  # Main Streamlit web application
+
 ├── srm_analysis.py         # SRM Noise Residual Analysis module
+
 ├── helper.py               # ELA processing and metadata helper functions
+
 ├── fix_model.py            # Script to fix model compatibility for Windows/Keras
+
 ├── requirements.txt        # List of required Python packages
+
 ├── README.md               # Project documentation and instructions
+
 ├── analyze_user_img.py     # Script for direct command-line image analysis
+
 ├── test_ela.py             # Unit test script for ELA functionality
+
 └── temp_upload.jpg         # Temporary file for processed uploads
 
 
-## 📂 Project Structure
+
+
